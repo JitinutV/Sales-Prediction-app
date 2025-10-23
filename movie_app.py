@@ -21,7 +21,7 @@ def download_file_from_google_drive(file_id, destination):
 
 # ตรวจสอบและ import function
 try:
-    from myfunction_66130701931 import get_movie_recommendations
+    from myfunction_65130701936 import get_movie_recommendations
 except ImportError as e:
     st.error(f"❌ ไม่สามารถ import ฟังก์ชันได้: {e}")
     st.info("กรุณาตรวจสอบว่าไฟล์ 'myfunction_65130701936.py' อยู่ในโฟลเดอร์เดียวกัน")
